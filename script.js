@@ -72,8 +72,8 @@ const CONSTELLATION_SLOTS = [
   },
   {
     id: 8,
-    name: "Tianguan Furthest", // needs a better star but unused so can't be bothered rn. conflicts with slot 5
-    kickerDefault: "✦ Tianguan · ζ Tauri ✦",
+    name: "Omicron",
+    kickerDefault: "✦ Omicron· ο Tauri ✦",
     x: 8.5,
     y: 33.5,
     size: 32,
@@ -82,8 +82,8 @@ const CONSTELLATION_SLOTS = [
   },
   {
     id: 9,
-    name: "Omicron",
-    kickerDefault: "✦ Omicron· ο Tauri ✦",
+    name: "Theta",
+    kickerDefault: "✦ Theta · θ Tauri ✦",
     x: 88.5,
     y: 92.0,
     size: 28,
