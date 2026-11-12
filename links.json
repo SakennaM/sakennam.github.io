@@ -1,0 +1,92 @@
+{
+  "icons": {
+    "shop": "icons/shop.svg",
+    "drop": "icons/drop.svg",
+    "instagram": "icons/instagram.svg",
+    "twitch": "icons/twitch.svg",
+    "youtube": "icons/youtube.svg",
+    "pinterest": "icons/pinterest.svg",
+    "email": "icons/email.svg",
+    "star": "icons/star.svg"
+  },
+  "unoccupiedStar": {
+    "icon": "star",
+    "color": "var(--gold)"
+  },
+  "announcements": [
+    "Wintry and whimsical creations are [here](https://sakenna.space/collections/winter-and-whimsy)!",
+    "Special offers valid until the end of December!"
+  ],
+  "links": [
+    {
+      "slot": 1,
+      "title": "Twitch",
+      "subtitle": "live making-of sessions",
+      "kicker": "✦ Elnath · β Tauri ✦",
+      "url": "https://www.twitch.tv/sakenna",
+      "icon": "twitch",
+      "color": "var(--lilac)",
+      "target": "_blank"
+    },
+    {
+      "slot": 2,
+      "title": "Instagram",
+      "subtitle": "gallery & process snippets",
+      "kicker": "✦ Tau · τ Tauri ✦",
+      "url": "https://www.instagram.com/sakenna.space",
+      "icon": "instagram",
+      "color": "var(--pink)",
+      "target": "_blank"
+    },
+    {
+      "slot": 3,
+      "title": "YouTube",
+      "subtitle": "timelapses & making of",
+      "kicker": "✦ Ain · ε Tauri ✦",
+      "url": "https://www.youtube.com/@sakennas",
+      "icon": "youtube",
+      "color": "var(--peach)",
+      "target": "_blank"
+    },
+    {
+      "slot": 4,
+      "title": "The Shop",
+      "subtitle": "sakenna.space",
+      "kicker": "✦ Aldebaran · α Tauri ✦",
+      "url": "https://sakenna.space/",
+      "icon": "shop",
+      "color": "var(--sky)",
+      "target": "_self"
+    },
+    {
+      "slot": 5,
+      "title": "The Seasonal Drop",
+      "subtitle": "Winter & Whimsy",
+      "kicker": "✦ Tianguan · ζ Tauri ✦",
+      "url": "https://sakenna.space/collections/winter-and-whimsy",
+      "icon": "drop",
+      "color": "var(--mint)",
+      "target": "_self"
+    },
+    {
+      "slot": 6,
+      "title": "Pinterest",
+      "subtitle": "inspo boards",
+      "kicker": "✦ Prima Hyadum · γ Tauri ✦",
+      "url": "https://uk.pinterest.com/sakennaspace/",
+      "icon": "pinterest",
+      "color": "var(--orange)",
+      "target": "_blank"
+    },
+    {
+      "slot": 7,
+      "title": "Email Me",
+      "subtitle": "inbox",
+      "kicker": "✦ Secunda Hyadum · δ Tauri ✦",
+      "url": "mailto:hello@sakenna.space",
+      "icon": "email",
+      "color": "var(--mint)",
+      "target": "_self"
+    }
+  ]
+}

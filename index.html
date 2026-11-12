@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Sakenna’s Space Constellation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="stars" id="stars" aria-hidden="true"></div>
+<div class="shoot" style="top:8%;left:8%" aria-hidden="true"></div>
+<div class="shoot b" aria-hidden="true"></div>
+
+<main>
+  <header class="header-wrapper">
+    <div class="title-wrap">
+      <h1>Sakenna’s <em>Space</em></h1>
+      <button type="button" class="view-switch" id="viewToggle" data-view="constellation"
+              aria-controls="viewSky viewList" aria-label="Switch to list view" title="Switch to list view">
+        <span class="icon" data-icon="constellation" aria-hidden="true"><span class="loading-icon"></span></span>
+        <span class="icon" data-icon="list" aria-hidden="true"><span class="loading-icon"></span></span>
+      </button>
+    </div>
+    <div class="hand">~ stubbornly handmade items ~</div>
+    <p class="tag">Earrings, bookmarks, charms, stickers and little art sets. Pick a star to explore.</p>
+  </header>
+
+  <aside class="notice" id="notice" hidden aria-label="Announcements"></aside>
+
+  <nav class="sky" id="viewSky" aria-label="Constellation Links">
+    <div class="constellation-lines" id="skyLines" aria-hidden="true"></div>
+
+    <div class="pleiades" title="The Pleiades · Seven Sisters" aria-hidden="true"></div>
+
+    <span class="cname" aria-hidden="true">Taurus, the stubborn bull</span>
+  </nav>
+
+  <ul class="links-list" id="viewList" hidden aria-label="Links List"></ul>
+
+  <footer><span>✦</span> by <a href="https://tux.fish" target="_blank">tux</a> <span>✦</span></footer>
+</main>
+</body>
+</html>

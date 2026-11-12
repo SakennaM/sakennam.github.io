@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" overflow="visible">
+  <polyline class="const-ambient" points="10.3,5.9 28.5,27.5 33.0,43.1 38.7,56.2 52.2,67.7 76.5,78.5 88.5,92.0"/>
+  <polyline class="const-ambient" points="8.5,33.5 23.0,50.5 38.7,56.2"/>
+  <polyline class="const-pulse" points="10.3,5.9 28.5,27.5 33.0,43.1 38.7,56.2 52.2,67.7 76.5,78.5 88.5,92.0"/>
+  <polyline class="const-pulse" points="8.5,33.5 23.0,50.5 38.7,56.2"/>
+</svg>
