@@ -502,7 +502,23 @@ footer a{color:var(--muted)}
   .list-item-link{padding:10px 14px}
   .list-icon-badge{width:38px;height:38px}
 }
-
+@media (max-width: 768px){
+  .const-pulse {
+    animation: none !important;
+    will-change: auto !important;
+  }
+  .zap{
+    display: none !important;
+  }
+  body::before {
+    filter: none;
+    opacity: 0.45;
+  }
+  .notice, .thematic-pill, .list-item-link {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   .zap{display:none}
